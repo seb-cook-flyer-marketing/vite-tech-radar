@@ -9,24 +9,40 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@azure/cosmos": "^3.17.2",
+    "@types/d3-transition": "^3.0.2",
+    "d3": "^7.7.0",
     "d3-color": "^3.1.0",
     "d3-scale": "^4.0.2",
     "d3-scale-chromatic": "^3.0.0",
+    "d3-selection": "^3.0.0",
     "d3-shape": "^3.1.0",
-    "styled-components": "^5.3.6"
+    "d3-transition": "^3.0.1",
+    "nanoid": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "styled-components": "^5.3.6",
+    "zustand": "^4.1.5"
   },
   "devDependencies": {
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.1.0",
-    "typescript": "^4.6.4",
-    "vite": "^3.1.0",
+    "@tailwindcss/typography": "^0.5.8",
+    "@types/d3": "^7.4.0",
     "@types/d3-color": "^3.1.0",
     "@types/d3-scale": "^4.0.2",
     "@types/d3-scale-chromatic": "^3.0.0",
+    "@types/d3-selection": "^3.0.3",
     "@types/d3-shape": "^3.1.0",
-    "@types/styled-components": "^5.1.26"
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "@vitejs/plugin-react": "^2.1.0",
+    "autoprefixer": "^10.4.13",
+    "daisyui": "^2.43.2",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
   }
 }

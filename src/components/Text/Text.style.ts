@@ -1,11 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const TextWrapper = styled.text`
-        font-weight: bold;
-        color: white;
-        opacity: 0.6;
-        text-align: right;
+  font-weight: bold;
+  opacity: 0.6;
+  text-align: right;
 `;
 
-export default TextWrapper
-
+export default TextWrapper;
